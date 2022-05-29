@@ -1,0 +1,60 @@
+.thirdpage-wrapper {
+  /* border: 1px solid; */
+  width: 99.85vw;
+  height: 35vh;
+  background-color: #f6f9ff;
+  display: flex;
+  align-items: center;
+}
+
+.thirdpage-wrapper .thirdpage-container {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 60%;
+}
+
+.thirdpage-container .heading1 {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdpage-container .heading1 p {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #012970;
+}
+
+.thirdpage-container .heading2 {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdpage-container .heading2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  text-align: center;
+}
+
+.thirdpage-container .button {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 491px) {
+  .thirdpage-wrapper .thirdpage-container {
+    height: 70%;
+  }
+}

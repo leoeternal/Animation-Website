@@ -1,0 +1,43 @@
+.sixthpage-wrapper {
+  /* border: 1px solid rgb(209, 209, 209); */
+  width: 99.85vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(248, 249, 254);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sixthpage-wrapper .heading1 {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sixthpage-wrapper .heading1 p {
+  text-align: center;
+  text-align: center;
+  color: #012970;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sixthpage-wrapper .heading2 {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sixthpage-wrapper .heading2 p {
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+  font-family: Arial, Helvetica, sans-serif;
+}
