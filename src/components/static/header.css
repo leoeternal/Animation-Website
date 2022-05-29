@@ -3,8 +3,8 @@
   width: 99.85vw;
   height: 8vh;
   display: flex;
-  /* justify-content: space-between; */
-  justify-content: center;
+  justify-content: space-between;
+  /* justify-content: center; */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -18,8 +18,8 @@
 
 .header-wrapper .left {
   /* border: 1px solid; */
-  /* width: 20%; */
-  width: 45%;
+  width: 20%;
+  /* width: 45%; */
   height: 99%;
   display: flex;
   align-items: center;
@@ -66,6 +66,13 @@
   margin-right: 70px;
 }
 
+.header-wrapper .button {
+  /* border: 1px solid; */
+  width: 30%;
+  height: 99%;
+  display: none;
+}
+
 .links .link {
   /* border: 1px solid; */
   width: 20%;
@@ -89,4 +96,37 @@
 .links .link p:hover {
   color: #4154f1;
   cursor: pointer;
+}
+
+@media (max-width: 864px) {
+  .header-wrapper .left {
+    width: 30%;
+  }
+
+  .header-wrapper .links {
+    width: 45%;
+  }
+
+  .links .link {
+    width: 25%;
+  }
+}
+
+@media (max-width: 672px) {
+  .header-wrapper {
+    justify-content: space-between;
+  }
+  .header-wrapper .left {
+    width: 40%;
+    margin-left: 0px;
+  }
+  .header-wrapper .links {
+    display: none;
+  }
+  .header-wrapper .button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
 }
