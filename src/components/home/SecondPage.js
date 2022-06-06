@@ -5,6 +5,7 @@ import image3 from "../../static/images/image3.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./secondPage.css";
+import { motion } from "framer-motion";
 
 function SecondPage() {
   useEffect(() => {
@@ -27,7 +28,11 @@ function SecondPage() {
           className="card"
         >
           <div className="image">
-            <img src={image1} alt="second page" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={image1}
+              alt="second page"
+            />
           </div>
           <div className="title">
             <p>360° YouTube Management</p>
@@ -46,7 +51,11 @@ function SecondPage() {
           className="card"
         >
           <div className="image">
-            <img src={image2} alt="second page" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={image2}
+              alt="second page"
+            />
           </div>
           <div className="title">
             <p>Social Media Management</p>
@@ -65,7 +74,11 @@ function SecondPage() {
           className="card"
         >
           <div className="image">
-            <img src={image3} alt="second page" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={image3}
+              alt="second page"
+            />
           </div>
           <div className="title">
             <p>Content Creation</p>

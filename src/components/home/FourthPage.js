@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import person1 from "../../static/images/person1.png";
 import person2 from "../../static/images/person2.png";
 import "./fourthPage.css";
+import { motion } from "framer-motion";
 
 function FourthPage() {
   useEffect(() => {
@@ -43,7 +44,7 @@ function FourthPage() {
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className="right">
-          <div className="fourth-card">
+          <motion.div whileHover={{ scale: 1.1 }} className="fourth-card">
             <div className="image">
               <img src={person1} alt="fourth page" />
             </div>
@@ -60,8 +61,8 @@ function FourthPage() {
                 GeeksforGeeks, Leap Scholar & Able Jobs(YC '19).
               </p>
             </div>
-          </div>
-          <div className="fourth-card">
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} className="fourth-card">
             <div className="image">
               <img src={person2} alt="fourth page" />
             </div>
@@ -78,7 +79,7 @@ function FourthPage() {
                 over a dozen of startups across the globe.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
