@@ -32,7 +32,7 @@ function Header() {
           <img src={logo} alt="company logo"></img>
         </div>
         <div className="title">
-          <p>MarkitUp</p>
+          <p>ScaleFoster</p>
         </div>
       </div>
       <div className="links">

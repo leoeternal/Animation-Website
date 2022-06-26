@@ -6,7 +6,7 @@ function SixthPage() {
     <div className="sixthpage-wrapper">
       <div className="heading1">
         <p>
-          © Copyright <strong>MarkitUp Media Private Limited.</strong> All
+          © Copyright <strong>ScaleFoster Media Private Limited.</strong> All
           Rights Reserved
         </p>
       </div>
